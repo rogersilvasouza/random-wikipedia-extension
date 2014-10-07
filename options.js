@@ -1,7 +1,5 @@
 /*jslint browser: true*/
 /*global $, jQuery, console, alert, GET, chrome, language*/
-// Saves options to chrome.storage
-
 
 if (Storage === "undefined") {
     console.log('Local Storage Not Suported');
