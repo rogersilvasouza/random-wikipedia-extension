@@ -22,6 +22,10 @@ if (language === "fr") {
 
     url = 'http://fr.wikipedia.org/wiki/Sp%C3%A9cial:Page_au_hasard';
 
+} else {
+
+    url = 'http://en.wikipedia.org/wiki/Special:Random';
+
 }
 
 var popup = window.open(url, '_blank');

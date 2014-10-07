@@ -2,9 +2,13 @@
 /*global $, jQuery, console, alert, GET, chrome, language*/
 
 if (Storage === "undefined") {
+
     console.log('Local Storage Not Suported');
+
 } else {
+
     console.log('Local Storage Suport');
+
 }
 
 var saveButton = document.getElementById('save'), language;
