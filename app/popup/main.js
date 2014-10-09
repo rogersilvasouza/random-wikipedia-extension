@@ -27,10 +27,6 @@ if (language === "us") {
 
     url = 'http://de.wikipedia.org/wiki/Spezial:Zuf%C3%A4llige_Seite';
 
-} else if (language === "ja") {
-
-    url = 'http://es.wikipedia.org/wiki/Especial:Aleatoria';
-
 } else if (language === "it") {
 
     url = 'http://it.wikipedia.org/wiki/Speciale:PaginaCasuale';
