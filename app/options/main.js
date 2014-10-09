@@ -19,7 +19,11 @@ function restoreLanguage() {
 
     language = localStorage.getItem("language");
 
-    document.getElementById("language").value = language;
+    if(language) {
+
+        document.getElementById("language").value = language;
+
+    }
 
 }
 
