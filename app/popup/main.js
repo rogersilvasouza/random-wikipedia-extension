@@ -18,6 +18,11 @@ else if (language === "pl") {
     url = 'http://pl.wikipedia.org/wiki/Specjalna:Losowa_strona';
 
 }
+else if (language === "nl") {
+
+    url = 'http://nl.wikipedia.org/wiki/Speciaal:Willekeurig';
+
+}
 else if (language === "es") {
 
     url = 'http://es.wikipedia.org/wiki/Especial:Aleatoria';
